@@ -1,0 +1,540 @@
+{
+  "kind": "radar",
+  "asOf": "2026-08-05",
+  "window": "近一月，重点近一周，截至2026-08-05（云端零Key自动版）",
+  "topTopics": [
+    {
+      "dim": "一级宏观",
+      "title": "科技调整接近尾声？下一阶段如何配置？",
+      "note": "全球重大地缘方向，关注AI，可做联合运营专题（云端自动归纳）"
+    },
+    {
+      "dim": "二级产业",
+      "title": "韩国警方立案调查三星、SK海力士CEO，",
+      "note": "行业监管调整方向，关注全市场，可做联合运营专题（云端自动归纳）"
+    },
+    {
+      "dim": "三级资金面",
+      "title": "数据显示：“AI股神”不是被空头击溃的，",
+      "note": "机构持仓与险资方向，关注AI，可做联合运营专题（云端自动归纳）"
+    },
+    {
+      "dim": "四级个股龙头",
+      "title": "营收创新高，丰田卖车利润反而跌21%",
+      "note": "业绩预告与暴雷方向，关注汽车，可做联合运营专题（云端自动归纳）"
+    }
+  ],
+  "events": [
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "科技调整接近尾声？下一阶段如何配置？",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "沃什面前只有两条路：要么引爆“金融危机2.0”，要么点燃“美元危机1.0”？",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "美伊协议预期升温，日韩股市收高、SK海力士涨5.7%，油价下跌、金价上涨",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "人工智能、芯片",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业监管调整",
+      "priority": "中",
+      "title": "韩国警方立案调查三星、SK海力士CEO，涉嫌“绩效奖金”方面的背信罪",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "高盛：超大型科技股垄断格局瓦解，15年市场集中度拐点已现",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "低",
+      "title": "亚洲科技股重挫25-30%，市场定价“EPS下调或资本开支削减”！摩根大通预测：恰恰相反",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI、半导体",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "马斯克谈存储“供给1年涨20%，需求涨200%，价格当然涨”！高盛韩国交易员：市场定价明年三星亏钱吗？",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "存储",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "中",
+      "title": "中国7月RatingDog服务业PMI降至50.4，连续43个月保持扩张，就业、出口新业务均连续三个月增长",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "高盛详解韩国存储“8大焦点”：估值、长协、库存、长鑫冲击、回购等",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "存储",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "Arista Q2业绩超预期并大幅上调指引，高管直言“需求不是问题，供应是主要瓶颈”",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "报道：DeepSeek重启融资，投前估值5000亿元",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "美股创出新高！顶住“夏季风暴”的投资者获得回报",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "低",
+      "title": "SpaceX电话会：剑指美国“第四大运营商”，或提前实现万亿收入目标，芯片锁定英伟达",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "芯片",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "英美资源CEO：De Beers误判人工钻石影响，还以为冲击过后会迅速恢复",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "中",
+      "title": "数据显示：“AI股神”不是被空头击溃的，是“自找”的",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "SpaceX：我们将“All in”英伟达，目标明年底电力容量冲刺20吉瓦",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI、算力、电力",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月5日",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、半导体、芯片",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业周期拐点",
+      "priority": "中",
+      "title": "AMD电话会：“我们仍处AI周期的早期”，预计2027年数据中心销售翻倍",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美伊缓和叠加财报季提振，标普、道指齐创新高，芯片指数大涨6%，油价重挫",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "芯片",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "报道：香奈儿上半年销售额大涨16%，跑赢LVMH等奢侈品同行",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "消费",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "SpaceX上市后首份财报营收增92%大超预期，星链独撑利润，AI亏损收窄但支出高于预期｜财报见闻",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "AMD大跌！Q2营收、利润均超预期，Q3指引未满足激进投资者预期｜财报见闻",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "人工智能",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "zHBM！三星公布全新3D内存路线图，力争在AI技术领域取得领先",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI、芯片、存储",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "AI算力基建支撑，卡特彼勒Q2营收首次跨过200亿门槛，全面上调全年业绩指引",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、算力",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "报道：欧佩克7月原油产量增加116万桶/日，但仍低于战前水平",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "航运",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "诺和诺德大跌！上调业绩指引，但核心药品Wegovy销售不及预期",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "市场错判了AI？云业务积压订单暴增150%达1.7万亿美元，华尔街喊话：科技股估值已砸出“低洼”",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "沙特阿美Q2净利暴增33%，CEO警告：海峡封锁引发“历史最大石油供应冲击”，每周流失1亿桶供应",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "Citadel证券：美股7月暴跌不是牛市终结，而是一次“技术性重置”！基本面重掌主导权",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "国际油价走低！卡塔尔、美方接连释放外交信号，霍尔木兹海峡重开预期升温",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "低",
+      "title": "油价跌幅扩大至4%！贝森特：明日美伊或达成协议以开放霍尔木兹海峡",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美联储票委Paulson：对利率路径持“开放态度”，重点关注核心通胀趋势",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "高",
+      "title": "千亿干预“治标不治本”？日本10年期国债标售惨败，收益率飙升逼近2.90%警戒线",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "单季扭亏为盈，日产却直接下调全年销量预期",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "汽车",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "高",
+      "title": "营收创新高，丰田卖车利润反而跌21%",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "汽车",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "SpaceX IPO后首份财报倒计时！分析：投资者应紧盯“星舰”而非短期盈亏",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "软银Q1营业利润3023亿日元超预期、净利润承压，AI与云业务预计维持30%增长 | 财报见闻",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "人工智能、AI、云计算",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "三星2026年Q2夺回DRAM全球第一，市占39%重登王座",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI、芯片、存储、算力",
+      "source": "华尔街见闻（08-04）"
+    },
+    {
+      "date": "08-04",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "重大突发事件",
+      "priority": "中",
+      "title": "知名科技博主Dwarkesh Patel：AI模型越智能、算力越值钱，普通用户将被“价格挤出”",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "人工智能、AI、算力",
+      "source": "华尔街见闻（08-04）"
+    }
+  ]
+}
