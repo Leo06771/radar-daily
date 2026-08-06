@@ -1,499 +1,409 @@
 {
   "kind": "radar",
-  "asOf": "2026-08-05",
-  "window": "近一月，重点近一周，截至2026-08-05（云端零Key自动版）",
+  "asOf": "2026-08-06",
+  "window": "近一月，重点近一周，截至2026-08-06（云端零Key自动版）",
   "topTopics": [
     {
       "dim": "一级宏观",
-      "title": "科技调整接近尾声？下一阶段如何配置？",
-      "note": "全球重大地缘方向，关注AI，可做联合运营专题（云端自动归纳）"
+      "title": "SpaceX暴跌13%拖累科技板块，标普",
+      "note": "全球重大地缘方向，关注AI、黄金，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "二级产业",
-      "title": "美国拟禁止进口中国新款光模块，影响几何？",
-      "note": "行业监管调整方向，关注机器人、通信、光模块，可做联合运营专题（云端自动归纳）"
+      "title": "火星浅表层确认存在有机碳 \"毅力号\"揭示",
+      "note": "产业重磅事件方向，关注全市场，可做联合运营专题（云端自动归纳）"
+    },
+    {
+      "dim": "三级资金面",
+      "title": "高盛之后，摩根大通也上调SpaceX目标",
+      "note": "机构持仓与险资方向，关注AI、算力，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "四级个股龙头",
-      "title": "长鑫存储季度营收暴涨716%创全球最快增",
-      "note": "龙头产品发布方向，关注芯片、存储，可做联合运营专题（云端自动归纳）"
+      "title": "Meta发布AI编程 Agent \"Mu",
+      "note": "龙头产品发布方向，关注AI，可做联合运营专题（云端自动归纳）"
     }
   ],
   "events": [
     {
-      "date": "08-05",
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "火星浅表层确认存在有机碳 \"毅力号\"揭示古老生命探索新线索",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "全市场",
+      "source": "cnBeta（08-06）"
+    },
+    {
+      "date": "08-06",
       "timeBucket": "近一周",
       "dim": "一级宏观",
       "subDim": "全球重大地缘",
       "priority": "中",
-      "title": "美国多州水处理设施疑遭网络入侵 伊朗成首要嫌疑目标",
+      "title": "闪迪电话会：AI存储需求仍处扩张早期，客户订单锁定未来四年，最大客户签约后还追加需求",
       "productLines": [
         "通用"
       ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
+      "sectors": "AI、存储",
+      "source": "华尔街见闻（08-06）"
     },
     {
-      "date": "08-05",
+      "date": "08-06",
       "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "低",
-      "title": "华盛顿杜勒斯机场斥资220亿美元大改造 将建全球最大停车楼",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "Meta发布AI编程 Agent \"Muse Code\" 主打大型代码库跨任务并行处理",
       "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "科技调整接近尾声？下一阶段如何配置？",
-      "productLines": [
-        "通用"
+        "主动权益"
       ],
       "sectors": "AI",
-      "source": "华尔街见闻（08-05）"
+      "source": "cnBeta（08-06）"
     },
     {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "沃什面前只有两条路：要么引爆“金融危机2.0”，要么点燃“美元危机1.0”？",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
+      "date": "08-06",
       "timeBucket": "近一周",
       "dim": "四级个股龙头",
       "subDim": "龙头产品发布",
       "priority": "中",
-      "title": "月之暗面Kimi启动Pre-IPO融资 估值达500亿美元",
+      "title": "微软Xbox新增群语音录制、云存档还原等重磅功能",
       "productLines": [
         "主动权益"
       ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
+      "sectors": "游戏",
+      "source": "cnBeta（08-06）"
     },
     {
-      "date": "08-05",
+      "date": "08-06",
       "timeBucket": "近一周",
       "dim": "四级个股龙头",
       "subDim": "龙头产品发布",
       "priority": "中",
-      "title": "宇树科技IPO发行价约104元 市值将达400亿元以上",
+      "title": "微软发布针对企业AI智能体的专项“遏制策略”安全指南",
       "productLines": [
         "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "蔡崇信前妻离婚后首次公开亮相 与美国前国务卿希拉里同框观战篮球赛",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "美伊协议预期升温，日韩股市收高、SK海力士涨5.7%，油价下跌、金价上涨",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、芯片",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "高",
-      "title": "长鑫存储季度营收暴涨716%创全球最快增速 打入“三巨头”俱乐部指日可待？",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "芯片、存储",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "低",
-      "title": "特朗普政府拟排除开源权重模型 AI协同网络安全测试或引发争议",
-      "productLines": [
-        "通用"
       ],
       "sectors": "人工智能、AI",
-      "source": "cnBeta（08-05）"
+      "source": "cnBeta（08-06）"
     },
     {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "行业监管调整",
-      "priority": "中",
-      "title": "美国拟禁止进口中国新款光模块，影响几何？",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "机器人、通信、光模块",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "行业监管调整",
-      "priority": "中",
-      "title": "韩国警方立案调查三星、SK海力士CEO，涉嫌“绩效奖金”方面的背信罪",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "月度经营数据",
-      "priority": "高",
-      "title": "微软悄然下架Windows 11的32GB内存系统需求推荐文档并改推8GB硬件",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "中",
-      "title": "还没把英伟达送上天 SpaceX股价先跌入地",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "AI",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "中",
-      "title": "AI支出暴增2013% 马斯克原来在给黄仁勋“打工”？",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "AI",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "高盛：超大型科技股垄断格局瓦解，15年市场集中度拐点已现",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "中",
-      "title": "消息称三星、SK海力士测试中国芯片设备 应对美出口限制风险",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "半导体、芯片",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "低",
-      "title": "亚洲科技股重挫25-30%，市场定价“EPS下调或资本开支削减”！摩根大通预测：恰恰相反",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "AI、半导体",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "五层楼高的SpaceX火箭残骸今日撞击月球 部分地区可观测",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "月度经营数据",
-      "priority": "高",
-      "title": "主机PC无一幸免 美国游戏硬件均价半年暴涨16%",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "游戏",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "并购重组",
-      "priority": "中",
-      "title": "EA私有化后债务十倍于育碧 负债200亿竟要员工买单",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "游戏",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "马斯克谈存储“供给1年涨20%，需求涨200%，价格当然涨”！高盛韩国交易员：市场定价明年三星亏钱吗？",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "存储",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "中",
-      "title": "美国将禁止出口钨废料和回收电池材料",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "电池",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "DeepSeek重启融资 投前估值5000亿元",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "中",
-      "title": "中国7月RatingDog服务业PMI降至50.4，连续43个月保持扩张，就业、出口新业务均连续三个月增长",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "高盛详解韩国存储“8大焦点”：估值、长协、库存、长鑫冲击、回购等",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "存储",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "Arista Q2业绩超预期并大幅上调指引，高管直言“需求不是问题，供应是主要瓶颈”",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "报道：DeepSeek重启融资，投前估值5000亿元",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "中",
-      "title": "SpaceX发布上市后首份财报：营收同比增长92% 股价大跌超8%",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "美造车新势力Lucid CEO直言：高关税挡不住中国车企全球扩张",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "汽车",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "低",
-      "title": "宇树科技IPO今日询价 一股或超百元",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "美股创出新高！顶住“夏季风暴”的投资者获得回报",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（08-05）"
-    },
-    {
-      "date": "08-05",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "中",
-      "title": "SpaceX最新财报显示其AI算力业务营收大幅超越航天板块",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "人工智能、AI、算力",
-      "source": "cnBeta（08-05）"
-    },
-    {
-      "date": "08-05",
+      "date": "08-06",
       "timeBucket": "近一周",
       "dim": "二级产业",
       "subDim": "行业周期拐点",
       "priority": "中",
-      "title": "Framework笔记本已引入LPCAMM2模块化内存架构 性能表现暂不敌MacBook Pro",
+      "title": "联想Legion Go官方BIOS更新引发黑屏故障 无保修状态下修复费用最高达275美元",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "游戏",
+      "source": "cnBeta（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业周期拐点",
+      "priority": "中",
+      "title": "微软宣布Windows 10 LTSC 2021支持终止时间 并公布扩展安全性更新计划",
       "productLines": [
         "主动权益",
         "指数增强"
       ],
       "sectors": "全市场",
-      "source": "cnBeta（08-05）"
+      "source": "cnBeta（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月6日",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "西部数据电话会：AI时代“数据会复合增长”，物理AI正引爆硬盘需求，长协订单排至2031年",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "SpaceX暴跌13%拖累科技板块，标普纳指高位回调，黄金飙涨4%，原油冲高回落",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、黄金",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美联储理事Cook：通胀若未见降温，已准备好加息",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "中",
+      "title": "高盛之后，摩根大通也上调SpaceX目标价",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "AI、算力",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "低",
+      "title": "黑客瞄准华尔街顶级对冲基金发动新一轮网络攻击",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "美银：美国7月薪资增长加速，低收入群体贡献明显",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "消费、银行",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "AI需求力挺闪迪上季营收超预期增近四倍，拟豪掷140亿回购，但本季指引逊色 | 财报见闻",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、芯片、存储",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "西部数据大跌！第四财季营收、利润超预期，业绩指引令市场失望｜财报见闻",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI、存储",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "Meta推出首款AI编程智能体，正面挑战Anthropic与OpenAI",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "AMD重挫无碍AI龙头走强：英伟达五连涨创两月新高，美光重返“万亿美元俱乐部”",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、半导体、芯片",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "中",
+      "title": "全面FOMO！高盛资金流向专家：期权成交量创历史新高，美股正上演“疯狂追涨”",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "德国一机场暂停航班 此前发现武装无人机 并发生货机与不明物相撞事件",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "全市场",
+      "source": "cnBeta（08-06）"
+    },
+    {
+      "date": "08-06",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "五角大楼从公开网站撤下25年的武器测试报告 担心对手借AI挖掘漏洞",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "人工智能、AI",
+      "source": "cnBeta（08-06）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美联储今年票委呼吁现在加息：别等通胀失控再“猛踩刹车”，今年三次加息并非不可能",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "中",
+      "title": "抄底Situational Awareness后，Citadel旗舰基金单月急涨6%",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "低",
+      "title": "新一轮欧债危机风暴眼？法国财政告急，上半年赤字破1070亿欧元、全年赤字率或冲至8%",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "低",
+      "title": "“全球三日达”序幕拉开，菜鸟要用国际快递的半价抢客",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "消费",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "销量连续下滑三个月，理想开始“拆车”",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "电池、汽车",
+      "source": "华尔街见闻（08-05）"
     },
     {
       "date": "08-05",
       "timeBucket": "近一周",
       "dim": "四级个股龙头",
       "subDim": "业绩预告与暴雷",
-      "priority": "低",
-      "title": "SpaceX电话会：剑指美国“第四大运营商”，或提前实现万亿收入目标，芯片锁定英伟达",
+      "priority": "中",
+      "title": "本田第一财季净利增129%  全年预期上调但姿态保守",
       "productLines": [
         "主动权益"
       ],
-      "sectors": "芯片",
+      "sectors": "汽车",
       "source": "华尔街见闻（08-05）"
     },
     {
       "date": "08-05",
       "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "行业监管调整",
-      "priority": "中",
-      "title": "AI开源模型能力逼近行业顶尖 开发者安全防护已产生鸿沟",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "低",
+      "title": "美国7月ISM服务业PMI持续扩张，需求韧性犹存但滞胀风险升温",
       "productLines": [
-        "主动权益",
-        "指数增强"
+        "通用"
       ],
-      "sectors": "人工智能、AI",
-      "source": "cnBeta（08-05）"
+      "sectors": "消费",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "千亿保费、「零」营销员：中邮人寿开始换货架",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "保险",
+      "source": "华尔街见闻（08-05）"
     },
     {
       "date": "08-05",
@@ -501,9 +411,35 @@
       "dim": "四级个股龙头",
       "subDim": "龙头产品发布",
       "priority": "中",
-      "title": "Android应用因第三方代码陷阱导致用户精准位置信息隐秘泄露",
+      "title": "三星继续引领全球DRAM市场 晶圆代工与价格上涨推动份额增长",
       "productLines": [
         "主动权益"
+      ],
+      "sectors": "全市场",
+      "source": "cnBeta（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "重大突发事件",
+      "priority": "中",
+      "title": "俄罗斯电商仓库多处遭袭 中国外贸商“一天损失上万”紧急清仓",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "cnBeta（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "中",
+      "title": "段永平减持泡泡玛特",
+      "productLines": [
+        "指数增强"
       ],
       "sectors": "全市场",
       "source": "cnBeta（08-05）"
@@ -514,12 +450,38 @@
       "dim": "四级个股龙头",
       "subDim": "龙头产品发布",
       "priority": "中",
-      "title": "业绩大增 SpaceX首份季报揭示算力转租与星链扩张野心",
+      "title": "享界想在豪华SUV再赢一次",
       "productLines": [
         "主动权益"
       ],
-      "sectors": "算力",
-      "source": "cnBeta（08-05）"
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "沃什时代，高利率波动成新常态？",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "低",
+      "title": "突破4200美元阻力位！黄金“重置”完成，或迎来数月来最佳上涨窗口",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "黄金",
+      "source": "华尔街见闻（08-05）"
     },
     {
       "date": "08-05",
@@ -527,25 +489,63 @@
       "dim": "四级个股龙头",
       "subDim": "龙头产品发布",
       "priority": "中",
-      "title": "SpaceX今年已采购价值3.29亿美元的特斯拉Megapack储能电池",
+      "title": "“小非农”不及预期！美国7月ADP就业仅增4.4万人，创年内最低，周五非农数据成关键",
       "productLines": [
         "主动权益"
       ],
-      "sectors": "储能、电池",
-      "source": "cnBeta（08-05）"
+      "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
     },
     {
       "date": "08-05",
       "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
       "priority": "中",
-      "title": "巨型等离子体波持续侵蚀火星大气 中美探测器联手揭示谜团",
+      "title": "就在明天，美股史上最大解禁、10亿股筹码出笼，SpaceX迎来终极审判！",
       "productLines": [
-        "主动权益",
-        "指数增强"
+        "通用"
       ],
       "sectors": "全市场",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "闪迪、西部数据财报今夜双双揭晓，存储巨头能否打破7月抛售阴霾？",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "芯片、存储",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "中",
+      "title": "大摩：三季度是增配港股的黄金窗口期",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "黄金",
+      "source": "华尔街见闻（08-05）"
+    },
+    {
+      "date": "08-05",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "营收115亿创纪录但AMD游戏业务却惨跌31% 主因是XBOX和PS主机卖不动",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "游戏",
       "source": "cnBeta（08-05）"
     }
   ]
