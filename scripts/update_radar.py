@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """云端热点雷达生成器（零 API Key 版）
-抓取免费公开财经资讯源（RSS/公开JSON），关键词规则打标为 v4 契约，
+抓取免费公开财经资讯源（RSS/公开JSON），关键词规则打标为 v5 契约（含 region 国内/国外），
 输出 data/radar.json。stdlib-only，可直接在 GitHub Actions ubuntu 运行。
 用法: python3 scripts/update_radar.py [--out data/radar.json] [--days 31]
 """
@@ -38,7 +38,7 @@ RULES = [
     ("三级资金面", "北向与两融", ["北向资金", "沪深股通", "融资余额", "两融", "南向资金", "南下资金", "开户"]),
     ("三级资金面", "ETF资金与调样", ["ETF", "指数调样", "净申购"]),
     ("三级资金面", "公募申赎与爆款", ["公募基金", "新发基金", "募集", "申赎", "爆款基金", "理财产品", "存款搬家"]),
-    ("三级资金面", "发行与交易规则", ["注册制", "退市", "涨跌幅", "T+0"]),
+    ("三级资金面", "发行与交易规则", ["交易规则", "注册制", "退市", "涨跌幅", "T+0"]),
     ("三级资金面", "机构持仓与险资", ["险资", "社保基金", "增持", "减持", "持仓", "私募", "QFII", "主力资金", "回购"]),
     ("四级个股龙头", "业绩预告与暴雷", ["业绩预告", "预增", "预亏", "净利润", "中报", "年报", "一季报", "三季报", "暴雷", "亏损", "扭亏"]),
     ("四级个股龙头", "并购重组", ["并购", "重组", "收购", "借壳", "资产注入"]),
@@ -54,6 +54,18 @@ SECTOR_KWS = ["人工智能", "AI", "半导体", "芯片", "存储", "算力", "
               "医药", "创新药", "CXO", "军工", "黄金", "有色", "地产", "消费", "白酒", "银行", "券商", "保险",
               "汽车", "智能驾驶", "低空经济", "核电", "电力", "煤炭", "钢铁", "航运", "农业", "游戏", "传媒",
               "通信", "CPO", "光模块", "云计算", "大数据", "量子", "商业航天"]
+
+# 地区口径（契约 v5）：海外关键词命中数 > 国内关键词命中数 → 国外；国内有命中 → 国内；
+# 均无命中时按信源兜底（海外媒体默认国外，其余默认国内）
+FOREIGN_KWS = ["美国", "美联储", "特朗普", "美股", "纳斯达克", "标普", "道指", "美元", "美债", "英伟达",
+               "特斯拉", "苹果", "微软", "谷歌", "亚马逊", "Meta", "OpenAI", "欧盟", "欧洲", "欧洲央行",
+               "英国央行", "日本", "日经", "日元", "韩国", "三星", "海力士", "台积电", "印度", "越南",
+               "俄罗斯", "乌克兰", "伊朗", "中东", "欧佩克", "沙特", "巴菲特", "摩根大通", "高盛", "花旗",
+               "SpaceX", "马斯克", "AMD", "英特尔", "诺和诺德", "丰田", "日产", "香奈儿", "LVMH", "Lucid"]
+DOMESTIC_KWS = ["中国", "A股", "沪指", "上证", "深证", "创业板", "科创板", "港股", "恒指", "中概", "央行",
+                "国务院", "政治局", "国常会", "发改委", "证监会", "财政部", "工信部", "商务部", "北向",
+                "南向", "人民币", "公募", "十五五", "国产", "城投", "国资", "内地"]
+FOREIGN_FEEDS = {"BBC中文·财经", "FT中文网"}
 
 DIM_PRODUCT = {
     "一级宏观": ["通用"],
@@ -179,6 +191,16 @@ def sectors_of(text):
     return "、".join(hits[:4]) if hits else "全市场"
 
 
+def region_of(text, feed):
+    fs = sum(1 for k in FOREIGN_KWS if k in text)
+    ds = sum(1 for k in DOMESTIC_KWS if k in text)
+    if fs > ds:
+        return "国外"
+    if ds > 0:
+        return "国内"
+    return "国外" if feed in FOREIGN_FEEDS else "国内"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="data/radar.json")
@@ -210,6 +232,7 @@ def main():
             title = title[:58] + "…"
         events.append({
             "date": d.strftime("%m-%d"),
+            "region": region_of(text, c["feed"]),
             "timeBucket": "近一周" if d >= week_ago else "本月",
             "dim": dim, "subDim": sub,
             "priority": priority_of(text),
@@ -241,11 +264,12 @@ def main():
         "events": events,
     }
 
-    # 契约校验
-    REQ = ["date", "timeBucket", "dim", "subDim", "priority", "title", "productLines", "sectors", "source"]
+    # 契约校验（v5：含 region）
+    REQ = ["date", "region", "timeBucket", "dim", "subDim", "priority", "title", "productLines", "sectors", "source"]
     DIMS = {"一级宏观", "二级产业", "三级资金面", "四级个股龙头"}
     for e in events:
         assert list(e.keys()) == REQ
+        assert e["region"] in ("国内", "国外")
         assert e["timeBucket"] in ("近一周", "本月") and e["dim"] in DIMS
         assert e["priority"] in ("高", "中", "低")
     print(f"[validate] OK: {len(events)} events, {len(topics)} topTopics")
