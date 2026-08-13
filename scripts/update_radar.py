@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """云端热点雷达生成器（零 API Key 版）
-抓取免费公开财经资讯源（RSS/公开JSON），关键词规则打标为 v5 契约（含 region 国内/国外），
+抓取免费公开财经资讯源（RSS/公开JSON，国内权威媒体优先），关键词规则打标为 v6 契约
+（含 region 国内/国外 + url 原文链接；无真实链接的事件不收录），
 输出 data/radar.json。stdlib-only，可直接在 GitHub Actions ubuntu 运行。
 用法: python3 scripts/update_radar.py [--out data/radar.json] [--days 31]
 """
@@ -16,16 +17,23 @@ CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE
 
 FEEDS = [
-    ("华尔街见闻", "https://dedicated.wallstreetcn.com/rss.xml"),
+    # —— 国内权威/主流财经信源（v6 要求国内热点优先来自此类）——
+    # RSSHub 官方实例 + 公共镜像双写（标题去重兜底），逐源容错，失败不影响其他源
+    ("财联社电报(RSSHub)", "https://rsshub.app/cls/telegraph"),
+    ("财联社电报(镜像)", "https://rsshub.rssforever.com/cls/telegraph"),
+    ("财新·最新(RSSHub)", "https://rsshub.app/caixin/latest"),
+    ("财新·最新(镜像)", "https://rsshub.rssforever.com/caixin/latest"),
+    ("澎湃新闻(RSSHub)", "https://rsshub.app/thepaper/featured"),
+    ("澎湃新闻(镜像)", "https://rsshub.rssforever.com/thepaper/featured"),
     ("新浪财经·财经要闻", "https://rss.sina.com.cn/roll/finance/hot_roll.xml"),
+    # —— 海外/国际财经信源（国外热点口径）——
+    ("华尔街见闻", "https://dedicated.wallstreetcn.com/rss.xml"),
     ("BBC中文·财经", "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"),
     ("FT中文网", "https://www.ftchinese.com/rss/news"),
     ("联合早报·即时中国", "https://www.zaobao.com.sg/rss/realtime/china"),
     ("联合早报·即时财经", "https://www.zaobao.com.sg/rss/realtime/finance"),
     ("36氪", "https://36kr.com/feed"),
     ("cnBeta", "https://www.cnbeta.com.tw/backend.php"),
-    ("财联社电报(RSSHub)", "https://rsshub.app/cls/telegraph"),
-    ("澎湃新闻", "https://rsshub.app/thepaper/featured"),
 ]
 
 # subDim -> 关键词（命中即归类，按优先级从高到低尝试）
@@ -123,8 +131,20 @@ def parse_feed(name, url, since):
                     if el is not None and el.text:
                         return el.text.strip()
                 return ""
+
+            def link_of(_it=it):
+                # RSS: <link>文本；Atom: <link href="..."/> 属性（取 rel=alternate 或首个）
+                el = _it.find("link")
+                if el is not None and el.text and el.text.strip():
+                    return el.text.strip()
+                for lel in _it.findall("{http://www.w3.org/2005/Atom}link"):
+                    href = (lel.get("href") or "").strip()
+                    if href and lel.get("rel", "alternate") in ("alternate", ""):
+                        return href
+                return ""
             rows.append((txt("title"), txt("description", "summary", "content"),
-                         txt("pubDate", "date", "published", "updated", "dc:date")))
+                         txt("pubDate", "date", "published", "updated", "dc:date"),
+                         link_of()))
     except Exception:
         # 兜底：非严格 XML 用正则粗解析 <item> 块
         text = CTRL_RE.sub("", to_text(raw))
@@ -146,15 +166,21 @@ def parse_feed(name, url, since):
             if is_atom:
                 date_str = date_str or grab("published") or grab("updated")
                 desc_str = grab("summary") or grab("content")
+                lm = re.search(r"<link[^>]*href=[\"']([^\"']+)[\"']", b)
+                link_str = lm.group(1).strip() if lm else grab("link")
             else:
                 desc_str = grab("description")
-            rows.append((grab("title"), desc_str, date_str))
+                link_str = grab("link")
+            rows.append((grab("title"), desc_str, date_str, link_str))
         if not rows:
             print(f"[feed] {name} 解析失败（严格+兜底均无条目）")
             return items
-    for title_raw, desc_raw, ds in rows:
+    for title_raw, desc_raw, ds, link in rows:
         title = TAG_RE.sub("", title_raw).strip()
         desc = TAG_RE.sub("", desc_raw).strip()[:200]
+        link = (link or "").strip()
+        if not link.startswith("http"):
+            link = ""
         if not title:
             continue
         try:
@@ -166,7 +192,7 @@ def parse_feed(name, url, since):
                 when = dt.datetime.now(TZ)
         if when < since:
             continue
-        items.append({"title": title, "desc": desc[:200], "when": when, "feed": name})
+        items.append({"title": title, "desc": desc[:200], "when": when, "feed": name, "link": link})
     print(f"[feed] {name}: {len(items)} 条候选")
     return items
 
@@ -223,6 +249,8 @@ def main():
         if key in seen:
             continue
         seen.add(key)
+        if not c.get("link"):
+            continue  # v6：无真实原文链接的事件不收录
         text = c["title"] + " " + c["desc"]
         dim, sub = classify(text)
         if not dim:
@@ -238,6 +266,7 @@ def main():
             "dim": dim, "subDim": sub,
             "priority": priority_of(text),
             "title": title,
+            "url": c["link"],
             "productLines": DIM_PRODUCT[dim],
             "sectors": sectors_of(text),
             "source": f"{c['feed']}（{d.strftime('%m-%d')}）",
@@ -265,12 +294,13 @@ def main():
         "events": events,
     }
 
-    # 契约校验（v5：含 region）
-    REQ = ["date", "region", "timeBucket", "dim", "subDim", "priority", "title", "productLines", "sectors", "source"]
+    # 契约校验（v6：含 region + url）
+    REQ = ["date", "region", "timeBucket", "dim", "subDim", "priority", "title", "url", "productLines", "sectors", "source"]
     DIMS = {"一级宏观", "二级产业", "三级资金面", "四级个股龙头"}
     for e in events:
         assert list(e.keys()) == REQ
         assert e["region"] in ("国内", "国外")
+        assert e["url"].startswith("http")
         assert e["timeBucket"] in ("近一周", "本月") and e["dim"] in DIMS
         assert e["priority"] in ("高", "中", "低")
     print(f"[validate] OK: {len(events)} events, {len(topics)} topTopics")
