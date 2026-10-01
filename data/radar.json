@@ -1,30 +1,349 @@
 {
   "kind": "radar",
-  "asOf": "2026-09-30",
-  "window": "近一月，重点近一周，截至2026-09-30（云端零Key自动版）",
+  "asOf": "2026-10-01",
+  "window": "近一月，重点近一周，截至2026-10-01（云端零Key自动版）",
   "topTopics": [
     {
       "dim": "一级宏观",
-      "title": "扎堆“做空美债”！“逼空”只需要一个“差",
-      "note": "货币流动性方向，关注全市场，可做联合运营专题（云端自动归纳）"
+      "title": "美国8月核心PCE大幅回落 二季度GDP",
+      "note": "宏观经济数据方向，关注消费，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "二级产业",
-      "title": "“过去两年最准”的摩根大通交易台“翻多”",
-      "note": "行业周期拐点方向，关注消费，可做联合运营专题（云端自动归纳）"
+      "title": "新思科技与OpenAI达成芯片设计AI合",
+      "note": "产业重磅事件方向，关注人工智能、AI、半导体、芯片，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "三级资金面",
-      "title": "53亿美元涌入场外供电：私募巨头争夺AI",
-      "note": "机构持仓与险资方向，关注AI、电力，可做联合运营专题（云端自动归纳）"
+      "title": "医药板块分化加剧，创新药龙头迎来BD第二",
+      "note": "盘面快讯方向，关注医药、创新药，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "四级个股龙头",
-      "title": "OpenAI发布GPT-6.1 Sol ",
-      "note": "龙头产品发布方向，关注AI，可做联合运营专题（云端自动归纳）"
+      "title": "联邦快递斥资3亿美元向Harbinger",
+      "note": "月度经营数据方向，关注汽车，可做联合运营专题（云端自动归纳）"
     }
   ],
   "events": [
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "美股三大指数表现分化：标普、道指三连跌，半导体股多数收跌",
+      "url": "https://m.thepaper.cn/detail/34184783",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "半导体",
+      "source": "澎湃新闻(镜像)（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "高",
+      "title": "美国8月核心PCE大幅回落 二季度GDP增速由1.5%上修至2.2%",
+      "url": "https://international.caixin.com/2026-10-01/102490194.html",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "消费",
+      "source": "财新·最新(镜像)（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "顶层政策规划",
+      "priority": "中",
+      "title": "京沪穗落地住房销售改革细则：三地有哪些不同，对楼市有何影响？",
+      "url": "https://m.thepaper.cn/detail/34180765",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "澎湃新闻(镜像)（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "顶层政策规划",
+      "priority": "中",
+      "title": "10月起，这些新规将施行",
+      "url": "https://m.thepaper.cn/detail/34181683",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "银行",
+      "source": "澎湃新闻(镜像)（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "高",
+      "title": "梦回2013年“缩减恐慌”！“全球资产定价基准”单月暴涨50基点，实属罕见",
+      "url": "https://wallstreetcn.com/articles/3782860",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "美光电话会：2027年产能已售75%，看不到供需平衡拐点，物理AI将成下一个爆发点",
+      "url": "https://wallstreetcn.com/articles/3782858",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "人工智能、AI",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "特朗普再次布局中期选举：宣布韩国2000亿美元赴美投资计划，540亿美元投向阿拉斯加LNG",
+      "url": "https://wallstreetcn.com/articles/3782855",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "核电",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "特朗普称鲍威尔应该辞任美联储理事",
+      "url": "https://wallstreetcn.com/articles/3782857",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "高",
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月1日",
+      "url": "https://wallstreetcn.com/articles/3782848",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "通胀数据难挡美债压力，标普、道指三连跌，10年期收益率突破5.3%，全球债市Q3重挫",
+      "url": "https://wallstreetcn.com/articles/3782819",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美联储6比1投票通过压力测试改革：资本要求波动性减半，唯一反对票警告韧性受损",
+      "url": "https://wallstreetcn.com/articles/3782854",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "银行",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "新思科技与OpenAI达成芯片设计AI合作，股价一度涨超7%",
+      "url": "https://wallstreetcn.com/articles/3782849",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "人工智能、AI、半导体、芯片",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "高",
+      "title": "“美联储最爱通胀指标”低于预期，高盛不再预期10月加息",
+      "url": "https://wallstreetcn.com/articles/3782850",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业周期拐点",
+      "priority": "低",
+      "title": "【市场洞察】低库存放大油价弹性 如何判断化工板块配置机会？",
+      "url": "https://database.caixin.com/2026-09-30/102490181.html",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "全市场",
+      "source": "财新·最新(镜像)（09-30）"
+    },
+    {
+      "date": "10-01",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美联储24亿美元总部翻修调查出炉：未发现违法违规行为，管理缺陷推高成本",
+      "url": "https://wallstreetcn.com/articles/3782847",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（10-01）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "盘面快讯",
+      "priority": "低",
+      "title": "【行业速递】金融营销新规落地 A股互联网平台或迎估值重估",
+      "url": "https://database.caixin.com/2026-09-30/102490164.html",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "全市场",
+      "source": "财新·最新(镜像)（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业周期拐点",
+      "priority": "中",
+      "title": "关键矿产受关注度空前 如何应对新机遇与不确定性？",
+      "url": "https://topics.caixin.com/2026-09-30/102490158.html",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "新能源、储能、电力",
+      "source": "财新·最新(镜像)（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "中",
+      "title": "新加坡的AI机会：帮助技术落地、赢得信任并规模出口",
+      "url": "https://topics.caixin.com/2026-09-30/102490153.html",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "财新·最新(镜像)（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "低",
+      "title": "高盛策略师警示：盈利支撑暂稳股市，美债抛售若提速，美股或将承压",
+      "url": "https://wallstreetcn.com/articles/3782845",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "联邦快递斥资3亿美元向Harbinger订购2000辆电动卡车",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1580252.htm",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "汽车",
+      "source": "cnBeta（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业监管调整",
+      "priority": "低",
+      "title": "美国批准建设首座BWRX-300小型核反应堆 300MW核电或为AI数据中心提供稳定电力",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1580246.htm",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI、核电、电力",
+      "source": "cnBeta（09-30）"
+    },
     {
       "date": "09-30",
       "region": "国外",
@@ -32,8 +351,8 @@
       "dim": "一级宏观",
       "subDim": "宏观经济数据",
       "priority": "中",
-      "title": "中东石油出口恢复至战前水平的89%！摩根大通判断：原油市场基本正常化",
-      "url": "https://wallstreetcn.com/articles/3782788",
+      "title": "美国8月商品贸易逆差意外扩大至1326亿美元，创一年多来新高",
+      "url": "https://wallstreetcn.com/articles/3782846",
       "productLines": [
         "通用"
       ],
@@ -44,147 +363,119 @@
       "date": "09-30",
       "region": "国外",
       "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "货币流动性",
-      "priority": "高",
-      "title": "扎堆“做空美债”！“逼空”只需要一个“差数据”",
-      "url": "https://wallstreetcn.com/articles/3782780",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
       "priority": "中",
-      "title": "53亿美元涌入场外供电：私募巨头争夺AI数据中心能源入口",
-      "url": "https://wallstreetcn.com/articles/3782784",
+      "title": "分析师预计iPhone Duo年内销量约600万部",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1580240.htm",
       "productLines": [
-        "指数增强"
-      ],
-      "sectors": "AI、电力",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "尽管油价走低、尽管美联储高管“放鸽”，美债收益率依旧在走高",
-      "url": "https://wallstreetcn.com/articles/3782785",
-      "productLines": [
-        "通用"
+        "主动权益"
       ],
       "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
+      "source": "cnBeta（09-30）"
     },
     {
       "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "美债收益率持续走高、美股广度持续恶化，美股指数却依旧抗跌，下一步走向何方？",
-      "url": "https://wallstreetcn.com/articles/3782783",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "四大利好齐放，国际油价应声走低",
-      "url": "https://wallstreetcn.com/articles/3782781",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
+      "region": "国内",
       "timeBucket": "近一周",
       "dim": "二级产业",
-      "subDim": "行业周期拐点",
+      "subDim": "产业重磅事件",
       "priority": "中",
-      "title": "“过去两年最准”的摩根大通交易台“翻多”",
-      "url": "https://wallstreetcn.com/articles/3782782",
+      "title": "AI入局，合成生物学造物可否天马行空？",
+      "url": "https://topics.caixin.com/2026-09-30/102490121.html",
       "productLines": [
         "主动权益",
         "指数增强"
       ],
-      "sectors": "消费",
-      "source": "华尔街见闻（09-30）"
+      "sectors": "AI",
+      "source": "财新·最新(镜像)（09-30）"
     },
     {
       "date": "09-30",
-      "region": "国外",
+      "region": "国内",
       "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
       "priority": "中",
-      "title": "特朗普会晤科技巨头：签署AI\"道德约束\"协议，推行行业自律监管，“AI远超工业革命”",
-      "url": "https://wallstreetcn.com/articles/3782769",
+      "title": "新加坡永续发展与环境部长傅海燕：不要用过去的规律推算气候变化的未来",
+      "url": "https://topics.caixin.com/2026-09-30/102490113.html",
       "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "货币流动性",
-      "priority": "中",
-      "title": "30年期美债收益率创2002年新高，抛售潮在季节性压力下恐延续",
-      "url": "https://wallstreetcn.com/articles/3782779",
-      "productLines": [
-        "通用"
+        "主动权益",
+        "指数增强"
       ],
       "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
+      "source": "财新·最新(镜像)（09-30）"
     },
     {
       "date": "09-30",
       "region": "国外",
       "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "美国消费者信心骤降至2014年以来最低，消费意愿全面降温，美联储面临政策两难",
-      "url": "https://wallstreetcn.com/articles/3782775",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "iPhone 18 Pro Max拿下单周销量榜第一名 内存涨价让苹果霸榜高端市场",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1580234.htm",
       "productLines": [
-        "通用"
+        "主动权益"
       ],
-      "sectors": "消费",
-      "source": "华尔街见闻（09-30）"
+      "sectors": "全市场",
+      "source": "cnBeta（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "诺和控股高管：亚洲创新药资产将对跨国药企越来越有吸引力",
+      "url": "https://topics.caixin.com/2026-09-30/102490080.html",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "创新药",
+      "source": "财新·最新(镜像)（09-30）"
     },
     {
       "date": "09-30",
       "region": "国内",
       "timeBucket": "近一周",
       "dim": "一级宏观",
-      "subDim": "货币流动性",
-      "priority": "高",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月30日",
-      "url": "https://wallstreetcn.com/articles/3782777",
+      "subDim": "顶层政策规划",
+      "priority": "中",
+      "title": "人事观察｜仕途深耕浙江辗转湖南、财政部 54岁朱忠明当选上海市长",
+      "url": "https://china.caixin.com/2026-09-30/102490076.html",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "财新·最新(镜像)（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "三星发布Galaxy Tab S12系列旗舰平板：性能全面提升 售价最高上涨200美元",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1580220.htm",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "全市场",
+      "source": "cnBeta（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "原油市场出现反常一幕：油价高位之际，资金却在疯狂买入看跌期权",
+      "url": "https://wallstreetcn.com/articles/3782828",
       "productLines": [
         "通用"
       ],
@@ -196,10 +487,130 @@
       "region": "国外",
       "timeBucket": "近一周",
       "dim": "一级宏观",
-      "subDim": "货币流动性",
+      "subDim": "顶层政策规划",
       "priority": "高",
-      "title": "美股三大指数两连跌，30年期美债利率触及2002年高位，原油先涨后跌，黄金反弹",
-      "url": "https://wallstreetcn.com/articles/3782726",
+      "title": "统计口径修改后，美国8月核心PCE物价指数同比涨3%，低于预期",
+      "url": "https://wallstreetcn.com/articles/3782841",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "盘面快讯",
+      "priority": "中",
+      "title": "医药板块分化加剧，创新药龙头迎来BD第二增长曲线",
+      "url": "https://wallstreetcn.com/articles/3782839",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "医药、创新药",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "股价反弹40%后， 美光今夜迎财报大考：净利预期暴增超1000%，市场紧盯明年AI资本开支",
+      "url": "https://wallstreetcn.com/articles/3782836",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、云计算",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "中",
+      "title": "全球债市遭遇“至暗9月”，美债收益率冲上2007年以来高位，股市却逆势抗跌",
+      "url": "https://wallstreetcn.com/articles/3782835",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "睡着觉也能炒股？“美股散户大本营”Robinhood开放AI智能体，可24小时自动盯盘交易",
+      "url": "https://wallstreetcn.com/articles/3782833",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美8月PCE今夜揭晓：统计口径大改或压低读数，但通胀韧性仍存、加息压力未消",
+      "url": "https://wallstreetcn.com/articles/3782826",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "领克20入场，领克重整增长逻辑",
+      "url": "https://wallstreetcn.com/articles/3782825",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "新能源、汽车",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "顶层政策规划",
+      "priority": "高",
+      "title": "谁在接盘美国国债？对冲基金扛起7%份额，但高杠杆是定时炸弹",
+      "url": "https://wallstreetcn.com/articles/3782821",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（09-30）"
+    },
+    {
+      "date": "09-30",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "金价本月跌超5%，后续走势等待今夜美国PCE“定方向”",
+      "url": "https://wallstreetcn.com/articles/3782824",
       "productLines": [
         "通用"
       ],
@@ -208,427 +619,18 @@
     },
     {
       "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "多位美联储官员支持进一步加息，“三把手”称年内还需加息但不急，10月加息降温",
-      "url": "https://wallstreetcn.com/articles/3782768",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "特朗普推出AI政府门户America.gov，签署行政令要求各机构90天内整合接入",
-      "url": "https://wallstreetcn.com/articles/3782776",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI、机器人",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "美国中选前再压油价：释放最后一批战略石油储备，最多4000万桶，敦促欧洲跟进",
-      "url": "https://wallstreetcn.com/articles/3782773",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "特朗普称与科技领袖签署AI原则文件 协议“具有道德约束力”",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580120.htm",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "cnBeta（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "特朗普会晤人工智能业界领袖 反对新增联邦安全监管",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580118.htm",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "cnBeta（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "美联储鲍曼：AI对银行业机遇与风险并存，美联储敦促加强系统安全防护",
-      "url": "https://wallstreetcn.com/articles/3782771",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI、银行",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "低",
-      "title": "Altman：安全是首位，没有IPO时间表，暂缓发布GPT-6.1 Astra是出于高度谨慎",
-      "url": "https://wallstreetcn.com/articles/3782763",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "中",
-      "title": "报道：OpenAI拟融资至少300亿美元，目标估值1.4万亿美元",
-      "url": "https://wallstreetcn.com/articles/3782765",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "OpenAI发布GPT-6.1 Sol 性能逼近GPT-6 Astra 标准API输入输出价格降至五分之一",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580096.htm",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "AI",
-      "source": "cnBeta（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "易方达优质企业公告：张坤卸任基金经理",
-      "url": "https://wallstreetcn.com/articles/3782766",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "特朗普召集AI行业领袖开会讨论安全担忧",
-      "url": "https://www.ftchinese.com/story/001111023",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "AI",
-      "source": "FT中文网（09-30）"
-    },
-    {
-      "date": "09-30",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "中",
-      "title": "谁在回购市场大举借款？",
-      "url": "https://www.ftchinese.com/story/001111022",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "FT中文网（09-30）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "特朗普政府推出AI政府门户网站America.gov 试图用AI简化联邦服务",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580080.htm",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "cnBeta（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "白宫AI午餐会参会 完整名单曝光",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580072.htm",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "cnBeta（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "低",
-      "title": "阿曼杜库姆港扩容计划曝光：储油能力或翻倍，剑指霍尔木兹替代路线",
-      "url": "https://wallstreetcn.com/articles/3782755",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "低",
-      "title": "苹果首款折叠屏iPhone据报量产不足 上市初期供应或将有限",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580066.htm",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "低",
-      "title": "树莓派推出30美元智能显示模块 适配英特尔SDM商用屏",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580064.htm",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "中",
-      "title": "外资持仓跌至历史低位，韩国半导体的估值洼地究竟是陷阱还是机遇?",
-      "url": "https://wallstreetcn.com/articles/3782753",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "半导体、芯片、存储",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "ETF资金与调样",
-      "priority": "低",
-      "title": "首批中证红利增长ETF集中上报，红利基金再迎创新",
-      "url": "https://wallstreetcn.com/articles/3782767",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "低",
-      "title": "美债冲击持续加剧，为何美股依然无动于衷？",
-      "url": "https://wallstreetcn.com/articles/3782749",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "美伊“信息混战”：伊朗外长押注\"周二答复\"，特朗普否认制裁减免，油价徘徊百元关口下方",
-      "url": "https://wallstreetcn.com/articles/3782748",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "行业监管调整",
-      "priority": "中",
-      "title": "Anthropic新规：客户用量触及额度上限后将不再享受折扣",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1580050.htm",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "cnBeta（09-29）"
-    },
-    {
-      "date": "09-29",
       "region": "国内",
       "timeBucket": "近一周",
       "dim": "三级资金面",
       "subDim": "盘面快讯",
       "priority": "中",
-      "title": "广汽一汽“换股联姻”，央地车企重组大幕拉开",
-      "url": "https://wallstreetcn.com/articles/3782742",
+      "title": "A股三大股指集体收涨，午后地产、银行拉升，医药爆发，科创50跌超2%，半导体下挫",
+      "url": "https://wallstreetcn.com/articles/3782799",
       "productLines": [
         "指数增强"
       ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "行业周期拐点",
-      "priority": "中",
-      "title": "Muse需求传导至CPU，CPU交货期拉长至25-30周",
-      "url": "https://wallstreetcn.com/articles/3782739",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "顶层政策规划",
-      "priority": "高",
-      "title": "A股三大股指全天微涨，两市成交创14个月低位，房地产爆发、万科涨停，恒科指跌超1%，汽车、科网股普跌",
-      "url": "https://wallstreetcn.com/articles/3782706",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "电池、地产、汽车",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "低",
-      "title": "花旗：英伟达单GW收入或从180亿升至400亿美元，AI基础设施价值量持续提升",
-      "url": "https://wallstreetcn.com/articles/3782734",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "AI、芯片、算力",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "中",
-      "title": "49天内连续融资 诺因智能成立一年累计融资超10亿元",
-      "url": "https://wallstreetcn.com/articles/3782733",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "机器人、消费",
-      "source": "华尔街见闻（09-29）"
-    },
-    {
-      "date": "09-29",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "低",
-      "title": "花旗警告：中东与俄罗斯柴油出口双双收缩，全球年内或现100万桶/日的缺口",
-      "url": "https://wallstreetcn.com/articles/3782728",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（09-29）"
+      "sectors": "半导体、芯片、算力、医药",
+      "source": "华尔街见闻（09-30）"
     }
   ]
 }
