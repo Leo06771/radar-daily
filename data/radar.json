@@ -1,165 +1,302 @@
 {
   "kind": "radar",
-  "asOf": "2026-11-11",
-  "window": "近一月，重点近一周，截至2026-11-11（云端零Key自动版）",
+  "asOf": "2026-11-12",
+  "window": "近一月，重点近一周，截至2026-11-12（云端零Key自动版）",
   "topTopics": [
     {
       "dim": "一级宏观",
-      "title": "【市场动态】美联储官员释放加快升息信号",
-      "note": "全球重大地缘方向，关注全市场，可做联合运营专题（云端自动归纳）"
+      "title": "华尔街见闻早餐FM-Radio | 20",
+      "note": "货币流动性方向，关注全市场，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "二级产业",
-      "title": "【交易簿】谁能保证黄仁勋免罚？",
-      "note": "行业监管调整方向，关注全市场，可做联合运营专题（云端自动归纳）"
+      "title": "如果Anthropic下周的上市顺利、股",
+      "note": "产业重磅事件方向，关注人工智能、AI，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "三级资金面",
-      "title": "【市场动态】Anthropic拟通过IP",
+      "title": "Anthropic IPO遭疯抢！认购需",
       "note": "机构持仓与险资方向，关注全市场，可做联合运营专题（云端自动归纳）"
     },
     {
       "dim": "四级个股龙头",
-      "title": "税改消息提前泄露引股价异动 英国财长将接",
-      "note": "业绩预告与暴雷方向，关注银行，可做联合运营专题（云端自动归纳）"
+      "title": "互联网泡沫“龙头”亲历者！前思科高管对比",
+      "note": "业绩预告与暴雷方向，关注AI，可做联合运营专题（云端自动归纳）"
     }
   ],
   "events": [
     {
-      "date": "11-11",
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "如果Anthropic下周的上市顺利、股价上涨，那AI“一切照旧”，否则“一些公司会倒闭”",
+      "url": "https://wallstreetcn.com/articles/3785778",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "人工智能、AI",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "A股三大股指齐涨，科创50大涨超3%，算力硬件股继续爆发，机器人调整，恒科指跌超1%，阿里跌超5%",
+      "url": "https://wallstreetcn.com/articles/3785781",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI、半导体、芯片、存储",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "高",
+      "title": "互联网泡沫“龙头”亲历者！前思科高管对比：互联网大基建 vs AI大基建",
+      "url": "https://wallstreetcn.com/articles/3785780",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "CoreWeave大涨给AI云“喘息之机”，接下来就看Anthropic IPO和英伟达了",
+      "url": "https://wallstreetcn.com/articles/3785774",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "今日开会决定“黄仁勋是否下台”！英伟达董事会已开始遴选新CEO，考虑任命过渡CEO",
+      "url": "https://wallstreetcn.com/articles/3785773",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "人工智能、芯片",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "黄仁勋再曝新婚外情，董事会准备罢免！英伟达盘后跌幅达8%",
+      "url": "https://wallstreetcn.com/articles/3785765",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "人工智能、芯片",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
       "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "高",
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月12日",
+      "url": "https://wallstreetcn.com/articles/3785764",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "中",
+      "title": "英伟达美股盘后跳水，媒体报道称：黄仁勋曾与英伟达高管有过婚外情",
+      "url": "https://wallstreetcn.com/articles/3785762",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业监管调整",
+      "priority": "低",
+      "title": "美联航出手限制AI代理订票 未经授权的智能助手将被禁止访问平台",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1586008.htm",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "人工智能、AI",
+      "source": "cnBeta（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
       "timeBucket": "近一周",
       "dim": "二级产业",
       "subDim": "行业监管调整",
       "priority": "中",
-      "title": "【交易簿】谁能保证黄仁勋免罚？",
-      "url": "https://database.caixin.com/2026-11-11/102503358.html",
+      "title": "欧盟《数字公平法案》草案拟监管游戏战利品箱与虚拟货币",
+      "url": "https://www.cnbeta.com.tw/articles/game/1586002.htm",
       "productLines": [
         "主动权益",
         "指数增强"
       ],
-      "sectors": "全市场",
-      "source": "财新·最新(镜像)（11-11）"
+      "sectors": "游戏",
+      "source": "cnBeta（11-12）"
     },
     {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "中",
-      "title": "【市场动态】Anthropic拟通过IPO和私募配售筹至多904亿美元 有望超SpaceX纪录",
-      "url": "https://database.caixin.com/2026-11-11/102503357.html",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "财新·最新(镜像)（11-11）"
-    },
-    {
-      "date": "11-11",
+      "date": "11-12",
       "region": "国外",
       "timeBucket": "近一周",
       "dim": "一级宏观",
       "subDim": "全球重大地缘",
       "priority": "中",
-      "title": "【市场动态】美国牵头斡旋的俄乌和平谈判结束首日磋商 周三继续",
-      "url": "https://database.caixin.com/2026-11-11/102503355.html",
+      "title": "AI交易重燃，美股指反弹，CoreWeave飙升24%，美元续涨，黄金跌破4000",
+      "url": "https://wallstreetcn.com/articles/3785732",
       "productLines": [
         "通用"
       ],
-      "sectors": "全市场",
-      "source": "财新·最新(镜像)（11-11）"
+      "sectors": "AI、黄金",
+      "source": "华尔街见闻（11-12）"
     },
     {
-      "date": "11-11",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "中",
-      "title": "能源内参｜10月乘用车国内零售同比下跌近三成 出口增长超六成；退休6年后 中交集团原党委书记、董事长刘起涛被查",
-      "url": "https://www.caixin.com/2026-11-11/102503346.html",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "汽车",
-      "source": "财新·最新(镜像)（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "盘面快讯",
-      "priority": "中",
-      "title": "今日开盘：两市双双低开 沪指跌幅0.22%",
-      "url": "https://finance.caixin.com/2026-11-11/102503343.html",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "有色、银行、通信",
-      "source": "财新·最新(镜像)（11-11）"
-    },
-    {
-      "date": "11-11",
+      "date": "11-12",
       "region": "国外",
       "timeBucket": "近一周",
       "dim": "一级宏观",
       "subDim": "全球重大地缘",
       "priority": "高",
-      "title": "【市场动态】美联储官员释放加快升息信号",
-      "url": "https://database.caixin.com/2026-11-11/102503341.html",
+      "title": "AI交易热潮回归，CoreWeave单日暴涨24%，纳指100势将收复中选后失地",
+      "url": "https://wallstreetcn.com/articles/3785758",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "人工智能、AI",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "中",
+      "title": "两大巨头控盘，伦敦铝市场遭遇数十年来最严峻“逼空”",
+      "url": "https://wallstreetcn.com/articles/3785760",
       "productLines": [
         "通用"
       ],
       "sectors": "全市场",
-      "source": "财新·最新(镜像)（11-11）"
+      "source": "华尔街见闻（11-12）"
     },
     {
-      "date": "11-11",
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "龙头产品发布",
+      "priority": "中",
+      "title": "欧盟拟立法规范网络交易行为，违规企业最高面临全球营收6%罚款",
+      "url": "https://wallstreetcn.com/articles/3785761",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "消费",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
       "region": "国外",
       "timeBucket": "近一周",
       "dim": "一级宏观",
       "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "【市场动态】美联储理事鲍曼警告AI投资回报不及预期或导致股市估值大幅回调",
-      "url": "https://database.caixin.com/2026-11-11/102503340.html",
+      "priority": "低",
+      "title": "AI数据中心建设降温也不必担心？美国进口热潮短期难退，真正冲击或到2029年",
+      "url": "https://wallstreetcn.com/articles/3785757",
       "productLines": [
         "通用"
       ],
       "sectors": "AI",
-      "source": "财新·最新(镜像)（11-11）"
+      "source": "华尔街见闻（11-12）"
     },
     {
-      "date": "11-11",
+      "date": "11-12",
       "region": "国外",
       "timeBucket": "近一周",
       "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "中",
-      "title": "【市场动态】美国债市大逆转",
-      "url": "https://database.caixin.com/2026-11-11/102503338.html",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "华尔街大行集体上调加息预测，美债期货延续跌势，黄金跌超1%破4000",
+      "url": "https://wallstreetcn.com/articles/3785756",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "黄金",
+      "source": "华尔街见闻（11-12）"
+    },
+    {
+      "date": "11-12",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "高",
+      "title": "美联储大争议：“三把手”威廉姆斯的任期应何时结束？",
+      "url": "https://wallstreetcn.com/articles/3785754",
       "productLines": [
         "通用"
       ],
       "sectors": "全市场",
-      "source": "财新·最新(镜像)（11-11）"
+      "source": "华尔街见闻（11-12）"
     },
     {
-      "date": "11-11",
-      "region": "国内",
+      "date": "11-12",
+      "region": "国外",
       "timeBucket": "近一周",
       "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
+      "subDim": "龙头产品发布",
       "priority": "中",
-      "title": "税改消息提前泄露引股价异动 英国财长将接受质询",
-      "url": "https://finance.caixin.com/2026-11-11/102503328.html",
+      "title": "英特尔256核至强Diamond Rapids处理器真身曝光",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585988.htm",
       "productLines": [
         "主动权益"
       ],
-      "sectors": "银行",
-      "source": "财新·最新(镜像)（11-11）"
+      "sectors": "人工智能",
+      "source": "cnBeta（11-12）"
     },
     {
       "date": "11-11",
@@ -168,58 +305,198 @@
       "dim": "一级宏观",
       "subDim": "宏观经济数据",
       "priority": "低",
-      "title": "10月出口延续高增：AI拉动近四成增长，明年芯片涨价效应或减弱",
-      "url": "https://opinion.caixin.com/2026-11-11/102503317.html",
+      "title": "连续7个月下滑超20% 中汽协：乘用车年销或不足1900万辆",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585982.htm",
       "productLines": [
         "通用"
       ],
-      "sectors": "AI、芯片",
-      "source": "财新·最新(镜像)（11-11）"
+      "sectors": "新能源、汽车",
+      "source": "cnBeta（11-11）"
     },
     {
       "date": "11-11",
-      "region": "国内",
+      "region": "国外",
       "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "中",
-      "title": "T早报｜阿里拟分拆平头哥在港股独立上市；Anthropic启动IPO路演；特朗普称FBI正调查黄仁勋",
-      "url": "https://www.caixin.com/2026-11-11/102503309.html",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "低",
+      "title": "Anthropic IPO获数倍超额认购 最高拟募资904亿美元 或创全球IPO纪录",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585964.htm",
       "productLines": [
-        "通用"
+        "主动权益",
+        "指数增强"
       ],
-      "sectors": "AI、芯片、机器人、消费",
-      "source": "财新·最新(镜像)（11-11）"
+      "sectors": "人工智能",
+      "source": "cnBeta（11-11）"
     },
     {
       "date": "11-11",
-      "region": "国内",
+      "region": "国外",
       "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
       "priority": "中",
-      "title": "出口“新变化”",
-      "url": "https://opinion.caixin.com/2026-11-11/102503307.html",
+      "title": "Anthropic IPO遭疯抢！认购需求数倍超额，目标估值1.4万亿美元",
+      "url": "https://wallstreetcn.com/articles/3785750",
       "productLines": [
-        "通用"
+        "指数增强"
       ],
-      "sectors": "AI",
-      "source": "财新·最新(镜像)（11-11）"
+      "sectors": "全市场",
+      "source": "华尔街见闻（11-11）"
     },
     {
       "date": "11-11",
-      "region": "国内",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "三级资金面",
+      "subDim": "机构持仓与险资",
+      "priority": "低",
+      "title": "美银之后，大摩也将英伟达移除“首选股”名单！",
+      "url": "https://wallstreetcn.com/articles/3785748",
+      "productLines": [
+        "指数增强"
+      ],
+      "sectors": "半导体、银行",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "行业监管调整",
+      "priority": "中",
+      "title": "FreeBSD公布2026年第三季度开发报告 88%开发者支持制定AI使用政策",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585958.htm",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "人工智能、AI、存储",
+      "source": "cnBeta（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
       "timeBucket": "近一周",
       "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
+      "subDim": "业绩预告与暴雷",
       "priority": "中",
-      "title": "Anthropic IPO最多募资625亿美元 估值下探至1-1.4万亿美元",
-      "url": "https://www.caixin.com/2026-11-11/102503301.html",
+      "title": "IPO前夕，Anthropic再追加114亿美元算力采购订单",
+      "url": "https://wallstreetcn.com/articles/3785744",
       "productLines": [
         "主动权益"
       ],
+      "sectors": "算力、云计算",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "货币流动性",
+      "priority": "高",
+      "title": "央行Q3货政报告专栏：用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行",
+      "url": "https://wallstreetcn.com/articles/3785737",
+      "productLines": [
+        "通用"
+      ],
       "sectors": "全市场",
-      "source": "财新·最新(镜像)（11-11）"
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "低",
+      "title": "Anthropic CEO预言：癌症、心脏病等或在10年内成为历史",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585944.htm",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "cnBeta（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "李彦宏现身预热百度世界大会 和AI搓麻将 体验AI健身助手",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585938.htm",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "cnBeta（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "SpaceX推进“星际大脑”计划：豪掷先进太阳能技术冲刺100吉瓦太空算力目标",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585934.htm",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "人工智能、算力、电池",
+      "source": "cnBeta（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "宏观经济数据",
+      "priority": "中",
+      "title": "上汽乘用车首破百万，MG立了头功",
+      "url": "https://wallstreetcn.com/articles/3785734",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "全市场",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "中",
+      "title": "中国供应商搭上跨国车企的全球新车",
+      "url": "https://wallstreetcn.com/articles/3785733",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI、新能源",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "中国市场承压，日产再降全年销量预期",
+      "url": "https://wallstreetcn.com/articles/3785551",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "汽车",
+      "source": "华尔街见闻（11-11）"
     },
     {
       "date": "11-11",
@@ -227,13 +504,75 @@
       "timeBucket": "近一周",
       "dim": "一级宏观",
       "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "Anthropic路演PPT：“算力”提了49次、“安全”27次，收入一年翻12倍，长期利润率目标35%",
-      "url": "https://wallstreetcn.com/articles/3785694",
+      "priority": "低",
+      "title": "“过剩交易”卷土重来！摩根大通：美伊若达成协议，布油或跌至70美元中段",
+      "url": "https://wallstreetcn.com/articles/3785726",
       "productLines": [
         "通用"
       ],
-      "sectors": "AI、算力",
+      "sectors": "全市场",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "业绩预告与暴雷",
+      "priority": "中",
+      "title": "英伟达Rubin Ultra将催生多少CPO需求？伯恩斯坦：单Pod光学价值量翻5倍",
+      "url": "https://wallstreetcn.com/articles/3785723",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "AI、芯片、通信、CPO",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "一级宏观",
+      "subDim": "全球重大地缘",
+      "priority": "低",
+      "title": "科技老将：Anthropic IPO将是美股AI行情高点，有条件会“大举做多中国AI”",
+      "url": "https://wallstreetcn.com/articles/3785720",
+      "productLines": [
+        "通用"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "产业重磅事件",
+      "priority": "低",
+      "title": "Anthropic IPO估值1.3万亿美元，创始人人均身家180亿美元",
+      "url": "https://wallstreetcn.com/articles/3785717",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "AI",
+      "source": "华尔街见闻（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "二级产业",
+      "subDim": "顶层产业扶持政策",
+      "priority": "中",
+      "title": "北京具身智能三年方案发布，提出20万台年产能和50个标杆场景目标",
+      "url": "https://wallstreetcn.com/articles/3785725",
+      "productLines": [
+        "主动权益",
+        "指数增强"
+      ],
+      "sectors": "算力、机器人",
       "source": "华尔街见闻（11-11）"
     },
     {
@@ -243,72 +582,12 @@
       "dim": "一级宏观",
       "subDim": "全球重大地缘",
       "priority": "中",
-      "title": "A股三大股指盘初齐涨，创业板涨超1%，光模块大涨、“易中天”拉升，AI短剧调整，恒科指跌超1%，权重股科网股回落",
+      "title": "创业板午后涨超3%，算力硬件集体爆发，光模块龙头“易中天”均大涨超13%，恒科指跌超1%，权重科网股回落",
       "url": "https://wallstreetcn.com/articles/3785695",
       "productLines": [
         "通用"
       ],
-      "sectors": "AI、芯片、白酒、煤炭",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "货币流动性",
-      "priority": "高",
-      "title": "通胀连续爆表，沃勒放话“50基点加息”！高盛坚持12月加25基点，但明年3月多加一次",
-      "url": "https://wallstreetcn.com/articles/3785691",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "中",
-      "title": "1万亿 vs 1.4万亿？Anthropic IPO估值之谜即将揭晓",
-      "url": "https://wallstreetcn.com/articles/3785692",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "高",
-      "title": "上周在美债避险的投资者，本周又被打脸了",
-      "url": "https://wallstreetcn.com/articles/3785689",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "高",
-      "title": "英伟达继续大跌，两日市值蒸发4300亿美元，微软一度重夺全球第二",
-      "url": "https://wallstreetcn.com/articles/3785679",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
+      "sectors": "AI、芯片、算力、白酒",
       "source": "华尔街见闻（11-11）"
     },
     {
@@ -318,318 +597,44 @@
       "dim": "四级个股龙头",
       "subDim": "业绩预告与暴雷",
       "priority": "中",
-      "title": "CoreWeave季报暂缓AI放缓担忧：营收暴增168%、全年指引上调，但债务依然高企｜财报见闻",
-      "url": "https://wallstreetcn.com/articles/3785683",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "AI、云计算",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "中",
-      "title": "CoreWeave电话会：拒绝无担保发债，算力需求推动大幅提价，2028年实现盈利",
-      "url": "https://wallstreetcn.com/articles/3785686",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "AI、算力、云计算",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "费城联储主席Paulson支持渐进加息，但警告通胀仍“卡在”目标上方",
-      "url": "https://wallstreetcn.com/articles/3785690",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "低",
-      "title": "Anthropic IPO路演之际，OpenAI也披露财务数据：Q3收入不及，亏损远超",
-      "url": "https://wallstreetcn.com/articles/3785687",
+      "title": "37亿美元“数据中心发电设备预付款”不要了！“燃气轮机最积极买家”软银看到了什么？",
+      "url": "https://wallstreetcn.com/articles/3785724",
       "productLines": [
         "主动权益"
       ],
       "sectors": "AI",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "货币流动性",
-      "priority": "高",
-      "title": "华尔街见闻早餐FM-Radio | 2026年11月11日",
-      "url": "https://wallstreetcn.com/articles/3785684",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "抢在Anthropic IPO前出手！投资者据称兜售配售份额，溢价高达5%",
-      "url": "https://wallstreetcn.com/articles/3785685",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "顶层政策规划",
-      "priority": "高",
-      "title": "美国10年期国债票面利率升至5%，创2006年以来新高，拍卖需求降温",
-      "url": "https://wallstreetcn.com/articles/3785682",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "高",
-      "title": "美CPI超预期叠加美联储放鹰，美债重挫，美股指承压，英伟达两日跌10%，黄金大跌",
-      "url": "https://wallstreetcn.com/articles/3785613",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "黄金",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "月度经营数据",
-      "priority": "低",
-      "title": "传英伟达或削减台积电芯片订单 内外部压力持续加大",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1585852.htm",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "芯片",
-      "source": "cnBeta（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "Anthropic七名联合创始人拟在重磅IPO中套现17.5亿美元",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1585846.htm",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "全市场",
-      "source": "cnBeta（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "Anthropic进军人工智能办公软件 IPO前与微软谷歌竞争升温",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1585844.htm",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "cnBeta（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "IPO路演日加码企业办公市场！Anthropic推出多款AI工具，正面挑战微软Office",
-      "url": "https://wallstreetcn.com/articles/3785673",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "业绩预告与暴雷",
-      "priority": "中",
-      "title": "Anthropic路演瞄准35%长期经营利润目标，算力效率提高逾4倍，大企业客户1.19万",
-      "url": "https://wallstreetcn.com/articles/3785675",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "算力",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "三级资金面",
-      "subDim": "机构持仓与险资",
-      "priority": "中",
-      "title": "Anthropic拟通过IPO和私募配售筹至多904亿美元 有望超SpaceX纪录",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1585840.htm",
-      "productLines": [
-        "指数增强"
-      ],
-      "sectors": "人工智能、机器人",
-      "source": "cnBeta（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "二级产业",
-      "subDim": "产业重磅事件",
-      "priority": "中",
-      "title": "Anthropic IPO定价在即：高盛预测2030年营收破6850亿，7位创始人IPO套现17.5亿美元",
-      "url": "https://wallstreetcn.com/articles/3785677",
-      "productLines": [
-        "主动权益",
-        "指数增强"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "全球重大地缘",
-      "priority": "高",
-      "title": "美联储理事鲍曼警告：若AI押注落空，股市或将大幅回调",
-      "url": "https://wallstreetcn.com/articles/3785680",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "人工智能、AI",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "高",
-      "title": "美联储再次放鹰！今年票委Logan：至少还需加息两次，步伐或将加快",
-      "url": "https://wallstreetcn.com/articles/3785671",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
       "source": "华尔街见闻（11-11）"
     },
     {
       "date": "11-11",
       "region": "国内",
+      "timeBucket": "近一周",
+      "dim": "四级个股龙头",
+      "subDim": "月度经营数据",
+      "priority": "中",
+      "title": "PS5全球累计出货量突破1亿台 成为第四款破亿PlayStation主机",
+      "url": "https://www.cnbeta.com.tw/articles/game/1585928.htm",
+      "productLines": [
+        "主动权益"
+      ],
+      "sectors": "消费",
+      "source": "cnBeta（11-11）"
+    },
+    {
+      "date": "11-11",
+      "region": "国外",
       "timeBucket": "近一周",
       "dim": "二级产业",
       "subDim": "行业周期拐点",
       "priority": "中",
-      "title": "CoreWeave陷入困境：股价高点已蒸发65%，盘后强劲财报也难平息市场忧虑",
-      "url": "https://wallstreetcn.com/articles/3785665",
+      "title": "AMD高管质疑英伟达、Arm“智能体CPU”：四年前没人能预知浪潮",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585918.htm",
       "productLines": [
         "主动权益",
         "指数增强"
       ],
-      "sectors": "AI、云计算",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "高",
-      "title": "CPI暴击美债！2年期收益率盘中飙升逾20基点，金银大跌",
-      "url": "https://wallstreetcn.com/articles/3785669",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "黄金",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国外",
-      "timeBucket": "近一周",
-      "dim": "一级宏观",
-      "subDim": "宏观经济数据",
-      "priority": "高",
-      "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验",
-      "url": "https://wallstreetcn.com/articles/3785666",
-      "productLines": [
-        "通用"
-      ],
-      "sectors": "全市场",
-      "source": "华尔街见闻（11-11）"
-    },
-    {
-      "date": "11-11",
-      "region": "国内",
-      "timeBucket": "近一周",
-      "dim": "四级个股龙头",
-      "subDim": "龙头产品发布",
-      "priority": "中",
-      "title": "MiniMax开源H3 Image：4K图像生成仅10秒，支持多达16张参考图，首周五折优惠",
-      "url": "https://wallstreetcn.com/articles/3785667",
-      "productLines": [
-        "主动权益"
-      ],
-      "sectors": "AI",
-      "source": "华尔街见闻（11-11）"
+      "sectors": "AI、芯片",
+      "source": "cnBeta（11-11）"
     }
   ]
 }
